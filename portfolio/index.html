@@ -1,0 +1,1016 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+  <!-- SEO -->
+  <title>Bruno Resende | Engenheiro de Dados &amp; Analista de Dados</title>
+  <meta name="description" content="Bruno Resende — Engenheiro de Dados e Analista de Dados com experiência desde 2018 em SQL, Big Data, AWS, ETL, automação, cloud computing e desenvolvimento de soluções tecnológicas." />
+  <meta name="keywords" content="Engenheiro de Dados, Analista de Dados, ETL, Big Data, AWS, SQL, Cloud Computing, Automação, Pipeline de Dados, Bruno Resende" />
+  <meta name="author" content="Bruno Resende" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://brunoresende.dev" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Bruno Resende | Engenheiro de Dados &amp; Analista de Dados" />
+  <meta property="og:description" content="Profissional da área de dados desde 2018, com experiência em engenharia de dados, Big Data, AWS, ETL, automação e cloud computing." />
+  <meta property="og:url" content="https://brunoresende.dev" />
+  <meta property="og:locale" content="pt_BR" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Bruno Resende | Engenheiro de Dados" />
+  <meta name="twitter:description" content="Engenheiro de Dados e Analista de Dados com experiência desde 2018 em SQL, Big Data, AWS, ETL e automação." />
+
+  <!-- Favicon inline SVG -->
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="stylesheet" href="css/animations.css" />
+
+  <!-- Schema.org structured data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Bruno Resende",
+    "jobTitle": "Engenheiro de Dados e Analista de Dados",
+    "description": "Profissional da área de dados desde 2018, com experiência em engenharia de dados, Big Data, AWS, ETL e automação.",
+    "url": "https://brunoresende.dev",
+    "sameAs": [
+      "https://linkedin.com/in/PLACEHOLDER_LINKEDIN",
+      "https://github.com/PLACEHOLDER_GITHUB"
+    ]
+  }
+  </script>
+</head>
+
+<body>
+
+  <!-- ─────────────────────────────────────────
+       NAVIGATION
+  ───────────────────────────────────────── -->
+  <header class="nav-header" role="banner">
+    <nav class="nav-container" aria-label="Navegação principal">
+      <a href="#hero" class="nav-logo" aria-label="Bruno Resende - início">
+        <span class="logo-bracket">[</span>
+        <span class="logo-text">BR</span>
+        <span class="logo-bracket">]</span>
+      </a>
+
+      <button class="nav-toggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="nav-menu">
+        <span></span><span></span><span></span>
+      </button>
+
+      <ul class="nav-menu" id="nav-menu" role="list">
+        <li><a href="#sobre" class="nav-link">Sobre</a></li>
+        <li><a href="#especialidades" class="nav-link">Especialidades</a></li>
+        <li><a href="#tecnologias" class="nav-link">Tecnologias</a></li>
+        <li><a href="#projetos" class="nav-link">Projetos</a></li>
+        <li><a href="#arquitetura" class="nav-link">Arquitetura</a></li>
+        <li><a href="#contato" class="nav-link nav-link--cta">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ─────────────────────────────────────────
+         HERO
+    ───────────────────────────────────────── -->
+    <section id="hero" class="hero" aria-label="Apresentação">
+      <!-- Canvas para partículas/nós animados -->
+      <canvas id="hero-canvas" aria-hidden="true"></canvas>
+
+      <!-- Elementos decorativos de fundo -->
+      <div class="hero-grid" aria-hidden="true"></div>
+
+      <div class="hero-content">
+        <div class="hero-badge reveal-up" aria-label="Área de atuação">
+          <span class="badge-dot"></span>
+          <span class="font-mono">Engenharia de Dados · Big Data · Cloud</span>
+        </div>
+
+        <h1 class="hero-name reveal-up" style="animation-delay:.1s">
+          Bruno<br /><span class="hero-name--highlight">Resende</span>
+        </h1>
+
+        <p class="hero-title reveal-up font-mono" style="animation-delay:.2s">
+          <span class="type-cursor" id="typed-title"></span>
+        </p>
+
+        <p class="hero-description reveal-up" style="animation-delay:.35s">
+          Profissional da área de dados desde <strong>2018</strong>, com experiência em
+          engenharia de dados, análise de dados, Big Data, cloud computing,
+          automação de processos e desenvolvimento de soluções tecnológicas.
+        </p>
+
+        <div class="hero-actions reveal-up" style="animation-delay:.5s">
+          <a href="#projetos" class="btn btn--primary">
+            <span>Conheça meu trabalho</span>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+          </a>
+          <a href="#contato" class="btn btn--secondary">Entre em contato</a>
+        </div>
+
+        <!-- Métricas rápidas -->
+        <div class="hero-stats reveal-up" style="animation-delay:.65s" aria-label="Estatísticas profissionais">
+          <div class="stat-item">
+            <span class="stat-number font-mono">6+</span>
+            <span class="stat-label">Anos em dados</span>
+          </div>
+          <div class="stat-divider" aria-hidden="true"></div>
+          <div class="stat-item">
+            <span class="stat-number font-mono">ETL</span>
+            <span class="stat-label">Pipelines</span>
+          </div>
+          <div class="stat-divider" aria-hidden="true"></div>
+          <div class="stat-item">
+            <span class="stat-number font-mono">AWS</span>
+            <span class="stat-label">Cloud</span>
+          </div>
+          <div class="stat-divider" aria-hidden="true"></div>
+          <div class="stat-item">
+            <span class="stat-number font-mono">SQL</span>
+            <span class="stat-label">Data</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Pipeline visual decorativo -->
+      <div class="hero-pipeline" aria-hidden="true">
+        <div class="pipeline-flow">
+          <div class="pipe-node">SOURCE</div>
+          <div class="pipe-arrow"></div>
+          <div class="pipe-node pipe-node--active">INGEST</div>
+          <div class="pipe-arrow"></div>
+          <div class="pipe-node">ETL</div>
+          <div class="pipe-arrow"></div>
+          <div class="pipe-node">PROCESS</div>
+          <div class="pipe-arrow"></div>
+          <div class="pipe-node pipe-node--end">ANALYTICS</div>
+        </div>
+      </div>
+
+      <div class="hero-scroll" aria-hidden="true">
+        <div class="scroll-line"></div>
+        <span class="scroll-label font-mono">scroll</span>
+      </div>
+    </section>
+
+    <!-- ─────────────────────────────────────────
+         SOBRE MIM
+    ───────────────────────────────────────── -->
+    <section id="sobre" class="section sobre" aria-labelledby="sobre-heading">
+      <div class="container">
+        <div class="section-header reveal-up">
+          <span class="section-tag font-mono">// 01</span>
+          <h2 id="sobre-heading" class="section-title">Sobre mim</h2>
+          <p class="section-subtitle">Trajetória, experiência e propósito</p>
+        </div>
+
+        <div class="sobre-grid">
+          <!-- Texto -->
+          <div class="sobre-text reveal-left">
+            <p class="sobre-p">
+              Atuo na área de tecnologia e dados desde <strong>2018</strong>, construindo soluções
+              que envolvem processamento, integração, tratamento e análise de informações.
+            </p>
+            <p class="sobre-p">
+              Ao longo da minha trajetória, desenvolvi projetos relacionados à engenharia de dados,
+              ETL, automação de processos, execução de jobs, Big Data, cloud computing e
+              desenvolvimento de sistemas.
+            </p>
+            <p class="sobre-p">
+              Também possuo experiência no desenvolvimento de sites e aplicações web, o que me
+              permite compreender diferentes camadas de uma solução tecnológica — desde a interface
+              até os dados que sustentam a aplicação.
+            </p>
+            <p class="sobre-p sobre-p--highlight">
+              Meu foco está em transformar problemas em soluções eficientes,
+              automatizadas e escaláveis.
+            </p>
+
+            <div class="sobre-tags" aria-label="Áreas de atuação">
+              <span class="tag">Engenharia de Dados</span>
+              <span class="tag">Big Data</span>
+              <span class="tag">ETL / ELT</span>
+              <span class="tag">AWS</span>
+              <span class="tag">SQL</span>
+              <span class="tag">Automação</span>
+              <span class="tag">Cloud</span>
+              <span class="tag">Dev Web</span>
+            </div>
+          </div>
+
+          <!-- Timeline -->
+          <div class="timeline reveal-right" aria-label="Linha do tempo profissional">
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <span class="timeline-year font-mono">2018</span>
+                <h3 class="timeline-title">Início na área de Dados</h3>
+                <p class="timeline-desc">Primeiros passos em dados, SQL e integração de sistemas.</p>
+              </div>
+            </div>
+
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <span class="timeline-year font-mono">2019 — 2020</span>
+                <h3 class="timeline-title">Evolução técnica</h3>
+                <p class="timeline-desc">Aprofundamento em SQL, ETL e desenvolvimento de sistemas.</p>
+              </div>
+            </div>
+
+            <div class="timeline-item">
+              <div class="timeline-dot timeline-dot--active"></div>
+              <div class="timeline-content">
+                <span class="timeline-year font-mono">2021 — 2022</span>
+                <h3 class="timeline-title">Engenharia de Dados</h3>
+                <p class="timeline-desc">Pipelines, automação de jobs, tratamento e equalização de dados.</p>
+              </div>
+            </div>
+
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <span class="timeline-year font-mono">2023 — 2024</span>
+                <h3 class="timeline-title">Cloud &amp; Big Data</h3>
+                <p class="timeline-desc">AWS, cloud computing, processamento de grandes volumes de dados.</p>
+              </div>
+            </div>
+
+            <div class="timeline-item">
+              <div class="timeline-dot timeline-dot--glow"></div>
+              <div class="timeline-content">
+                <span class="timeline-year font-mono">2025 →</span>
+                <h3 class="timeline-title">Projetos e soluções</h3>
+                <p class="timeline-desc">Soluções escaláveis, automação avançada e arquiteturas de dados.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ─────────────────────────────────────────
+         ESPECIALIDADES
+    ───────────────────────────────────────── -->
+    <section id="especialidades" class="section especialidades" aria-labelledby="especialidades-heading">
+      <div class="container">
+        <div class="section-header reveal-up">
+          <span class="section-tag font-mono">// 02</span>
+          <h2 id="especialidades-heading" class="section-title">Especialidades</h2>
+          <p class="section-subtitle">Áreas de conhecimento e atuação</p>
+        </div>
+
+        <div class="cards-grid" role="list">
+
+          <article class="card card--data reveal-up" role="listitem" style="animation-delay:.05s">
+            <div class="card-icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="4" y="8" width="40" height="8" rx="2" stroke="currentColor" stroke-width="2"/>
+                <rect x="4" y="20" width="40" height="8" rx="2" stroke="currentColor" stroke-width="2"/>
+                <rect x="4" y="32" width="40" height="8" rx="2" stroke="currentColor" stroke-width="2"/>
+                <circle cx="12" cy="12" r="2" fill="currentColor"/>
+                <circle cx="12" cy="24" r="2" fill="currentColor"/>
+                <circle cx="12" cy="36" r="2" fill="currentColor"/>
+              </svg>
+            </div>
+            <div class="card-number font-mono">01</div>
+            <h3 class="card-title">Engenharia de Dados</h3>
+            <p class="card-desc">Construção de pipelines, processos de ETL/ELT, integração, tratamento e disponibilização de dados.</p>
+            <ul class="card-list" aria-label="Competências">
+              <li>Pipelines de dados</li>
+              <li>ETL / ELT</li>
+              <li>Integração de fontes</li>
+              <li>Disponibilização de dados</li>
+            </ul>
+            <div class="card-glow" aria-hidden="true"></div>
+          </article>
+
+          <article class="card card--bigdata reveal-up" role="listitem" style="animation-delay:.1s">
+            <div class="card-icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <ellipse cx="24" cy="14" rx="18" ry="6" stroke="currentColor" stroke-width="2"/>
+                <path d="M6 14v10c0 3.314 8.059 6 18 6s18-2.686 18-6V14" stroke="currentColor" stroke-width="2"/>
+                <path d="M6 24v10c0 3.314 8.059 6 18 6s18-2.686 18-6V24" stroke="currentColor" stroke-width="2"/>
+              </svg>
+            </div>
+            <div class="card-number font-mono">02</div>
+            <h3 class="card-title">Big Data</h3>
+            <p class="card-desc">Processamento e organização de grandes volumes de dados, buscando eficiência, escalabilidade e confiabilidade.</p>
+            <ul class="card-list" aria-label="Competências">
+              <li>Grandes volumes</li>
+              <li>Escalabilidade</li>
+              <li>Processamento eficiente</li>
+              <li>Confiabilidade</li>
+            </ul>
+            <div class="card-glow" aria-hidden="true"></div>
+          </article>
+
+          <article class="card card--sql reveal-up" role="listitem" style="animation-delay:.15s">
+            <div class="card-icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <polyline points="10,16 4,24 10,32" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <polyline points="38,16 44,24 38,32" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <line x1="18" y1="8" x2="30" y2="40" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <div class="card-number font-mono">03</div>
+            <h3 class="card-title">SQL &amp; Dados</h3>
+            <p class="card-desc">Consultas, transformações, integrações, validações, tratamento e análise de dados.</p>
+            <ul class="card-list" aria-label="Competências">
+              <li>Consultas avançadas</li>
+              <li>Transformações</li>
+              <li>Validações</li>
+              <li>Análise de dados</li>
+            </ul>
+            <div class="card-glow" aria-hidden="true"></div>
+          </article>
+
+          <article class="card card--cloud reveal-up" role="listitem" style="animation-delay:.2s">
+            <div class="card-icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M38 34H12a8 8 0 1 1 1.42-15.88A12 12 0 1 1 38 34z" stroke="currentColor" stroke-width="2"/>
+              </svg>
+            </div>
+            <div class="card-number font-mono">04</div>
+            <h3 class="card-title">Cloud &amp; AWS</h3>
+            <p class="card-desc">Conhecimentos em computação em nuvem e utilização de serviços AWS para construção de soluções escaláveis.</p>
+            <ul class="card-list" aria-label="Competências">
+              <li>Amazon Web Services</li>
+              <li>Cloud Computing</li>
+              <li>Infraestrutura cloud</li>
+              <li>Soluções escaláveis</li>
+            </ul>
+            <div class="card-glow" aria-hidden="true"></div>
+          </article>
+
+          <article class="card card--auto reveal-up" role="listitem" style="animation-delay:.25s">
+            <div class="card-icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="24" cy="24" r="8" stroke="currentColor" stroke-width="2"/>
+                <path d="M24 4v6M24 38v6M4 24h6M38 24h6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                <path d="M9.17 9.17l4.24 4.24M34.6 34.6l4.24 4.24M9.17 38.83l4.24-4.24M34.6 13.4l4.24-4.24" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <div class="card-number font-mono">05</div>
+            <h3 class="card-title">Automação</h3>
+            <p class="card-desc">Criação de processos automatizados, jobs e rotinas para reduzir atividades manuais e aumentar a eficiência.</p>
+            <ul class="card-list" aria-label="Competências">
+              <li>Jobs automatizados</li>
+              <li>Processos recorrentes</li>
+              <li>Rotinas de dados</li>
+              <li>Eficiência operacional</li>
+            </ul>
+            <div class="card-glow" aria-hidden="true"></div>
+          </article>
+
+          <article class="card card--web reveal-up" role="listitem" style="animation-delay:.3s">
+            <div class="card-icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="4" y="8" width="40" height="32" rx="3" stroke="currentColor" stroke-width="2"/>
+                <path d="M4 16h40" stroke="currentColor" stroke-width="2"/>
+                <circle cx="11" cy="12" r="2" fill="currentColor"/>
+                <circle cx="18" cy="12" r="2" fill="currentColor"/>
+                <circle cx="25" cy="12" r="2" fill="currentColor"/>
+              </svg>
+            </div>
+            <div class="card-number font-mono">06</div>
+            <h3 class="card-title">Desenvolvimento Web</h3>
+            <p class="card-desc">Criação de sites, sistemas web e aplicações integradas a bancos de dados e serviços.</p>
+            <ul class="card-list" aria-label="Competências">
+              <li>Sites e aplicações</li>
+              <li>Integração com dados</li>
+              <li>Sistemas web</li>
+              <li>Soluções personalizadas</li>
+            </ul>
+            <div class="card-glow" aria-hidden="true"></div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ─────────────────────────────────────────
+         TECNOLOGIAS
+    ───────────────────────────────────────── -->
+    <section id="tecnologias" class="section tecnologias" aria-labelledby="tecnologias-heading">
+      <div class="container">
+        <div class="section-header reveal-up">
+          <span class="section-tag font-mono">// 03</span>
+          <h2 id="tecnologias-heading" class="section-title">Stack &amp; Tecnologias</h2>
+          <p class="section-subtitle">Ferramentas e conceitos que utilizo no dia a dia</p>
+        </div>
+
+        <div class="tech-grid">
+
+          <div class="tech-category reveal-up" style="animation-delay:.05s">
+            <div class="tech-category-header">
+              <div class="tech-category-icon tech-icon--data" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M3 5v6c0 1.657 4.029 3 9 3s9-1.343 9-3V5"/><path d="M3 11v6c0 1.657 4.029 3 9 3s9-1.343 9-3v-6"/></svg>
+              </div>
+              <h3 class="tech-category-title">Data</h3>
+            </div>
+            <ul class="tech-list" role="list">
+              <li class="tech-item"><span class="tech-pill">SQL</span></li>
+              <li class="tech-item"><span class="tech-pill">ETL / ELT</span></li>
+              <li class="tech-item"><span class="tech-pill">Big Data</span></li>
+              <li class="tech-item"><span class="tech-pill">Data Processing</span></li>
+              <li class="tech-item"><span class="tech-pill">Data Integration</span></li>
+              <li class="tech-item"><span class="tech-pill">Data Analysis</span></li>
+              <li class="tech-item"><span class="tech-pill">Data Pipelines</span></li>
+              <li class="tech-item"><span class="tech-pill">Data Quality</span></li>
+            </ul>
+          </div>
+
+          <div class="tech-category reveal-up" style="animation-delay:.1s">
+            <div class="tech-category-header">
+              <div class="tech-category-icon tech-icon--cloud" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"/></svg>
+              </div>
+              <h3 class="tech-category-title">Cloud</h3>
+            </div>
+            <ul class="tech-list" role="list">
+              <li class="tech-item"><span class="tech-pill">AWS</span></li>
+              <li class="tech-item"><span class="tech-pill">Cloud Computing</span></li>
+              <li class="tech-item"><span class="tech-pill">Cloud Infrastructure</span></li>
+              <li class="tech-item"><span class="tech-pill">Scalable Solutions</span></li>
+            </ul>
+          </div>
+
+          <div class="tech-category reveal-up" style="animation-delay:.15s">
+            <div class="tech-category-header">
+              <div class="tech-category-icon tech-icon--dev" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+              </div>
+              <h3 class="tech-category-title">Development</h3>
+            </div>
+            <ul class="tech-list" role="list">
+              <li class="tech-item"><span class="tech-pill">Web Development</span></li>
+              <li class="tech-item"><span class="tech-pill">APIs</span></li>
+              <li class="tech-item"><span class="tech-pill">Systems</span></li>
+              <li class="tech-item"><span class="tech-pill">Databases</span></li>
+              <li class="tech-item"><span class="tech-pill">Business Logic</span></li>
+            </ul>
+          </div>
+
+          <div class="tech-category reveal-up" style="animation-delay:.2s">
+            <div class="tech-category-header">
+              <div class="tech-category-icon tech-icon--auto" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="3"/><path d="M12 1v4M12 19v4M4.22 4.22l2.83 2.83M16.95 16.95l2.83 2.83M1 12h4M19 12h4M4.22 19.78l2.83-2.83M16.95 7.05l2.83-2.83"/></svg>
+              </div>
+              <h3 class="tech-category-title">Automation</h3>
+            </div>
+            <ul class="tech-list" role="list">
+              <li class="tech-item"><span class="tech-pill">Jobs</span></li>
+              <li class="tech-item"><span class="tech-pill">Pipelines</span></li>
+              <li class="tech-item"><span class="tech-pill">Data Automation</span></li>
+              <li class="tech-item"><span class="tech-pill">Process Automation</span></li>
+              <li class="tech-item"><span class="tech-pill">Scheduling</span></li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ─────────────────────────────────────────
+         PROJETOS
+    ───────────────────────────────────────── -->
+    <section id="projetos" class="section projetos" aria-labelledby="projetos-heading">
+      <div class="container">
+        <div class="section-header reveal-up">
+          <span class="section-tag font-mono">// 04</span>
+          <h2 id="projetos-heading" class="section-title">Projetos</h2>
+          <p class="section-subtitle">Soluções desenvolvidas ao longo da trajetória</p>
+        </div>
+
+        <div class="projetos-grid">
+
+          <!-- Projeto 1 -->
+          <article class="projeto-card projeto-card--full reveal-up" aria-label="Projeto: Sistema de ETL e Equalização">
+            <div class="projeto-card-inner">
+              <div class="projeto-meta">
+                <span class="projeto-badge font-mono">Destaque</span>
+                <span class="projeto-number font-mono">P-02</span>
+              </div>
+              <div class="projeto-content">
+                <h3 class="projeto-title">Sistema de ETL e Equalização de Dados</h3>
+                <p class="projeto-desc">
+                  Desenvolvimento de uma solução para ETL, equalização, tratamento e processamento
+                  de dados provenientes de diferentes fontes, garantindo qualidade, consistência
+                  e disponibilização confiável das informações.
+                </p>
+
+                <!-- Fluxo visual ETL -->
+                <div class="etl-flow" aria-label="Fluxo do pipeline ETL" role="img">
+                  <div class="etl-step">
+                    <div class="etl-node">
+                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/><path d="M2 12h20"/></svg>
+                    </div>
+                    <span class="etl-label">Fonte</span>
+                  </div>
+                  <div class="etl-connector"><div class="etl-line"></div></div>
+                  <div class="etl-step">
+                    <div class="etl-node etl-node--active">
+                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="17 8 12 3 7 8"/><line x1="12" y1="3" x2="12" y2="15"/></svg>
+                    </div>
+                    <span class="etl-label">Extração</span>
+                  </div>
+                  <div class="etl-connector"><div class="etl-line"></div></div>
+                  <div class="etl-step">
+                    <div class="etl-node">
+                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><polyline points="16 3 21 3 21 8"/><line x1="4" y1="20" x2="21" y2="3"/><polyline points="21 16 21 21 16 21"/><line x1="15" y1="15" x2="21" y2="21"/></svg>
+                    </div>
+                    <span class="etl-label">Transform</span>
+                  </div>
+                  <div class="etl-connector"><div class="etl-line"></div></div>
+                  <div class="etl-step">
+                    <div class="etl-node">
+                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
+                    </div>
+                    <span class="etl-label">Equalização</span>
+                  </div>
+                  <div class="etl-connector"><div class="etl-line"></div></div>
+                  <div class="etl-step">
+                    <div class="etl-node">
+                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+                    </div>
+                    <span class="etl-label">Validação</span>
+                  </div>
+                  <div class="etl-connector"><div class="etl-line"></div></div>
+                  <div class="etl-step">
+                    <div class="etl-node">
+                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+                    </div>
+                    <span class="etl-label">Processo</span>
+                  </div>
+                  <div class="etl-connector"><div class="etl-line"></div></div>
+                  <div class="etl-step">
+                    <div class="etl-node etl-node--end">
+                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M3 5v14c0 1.657 4.029 3 9 3s9-1.343 9-3V5"/><path d="M3 12c0 1.657 4.029 3 9 3s9-1.343 9-3"/></svg>
+                    </div>
+                    <span class="etl-label">Banco</span>
+                  </div>
+                </div>
+
+                <div class="projeto-tags" aria-label="Tecnologias do projeto">
+                  <span class="tag tag--accent">ETL / ELT</span>
+                  <span class="tag">Equalização</span>
+                  <span class="tag">Tratamento de Dados</span>
+                  <span class="tag">Automação</span>
+                  <span class="tag">Jobs</span>
+                  <span class="tag">Integração</span>
+                  <span class="tag">SQL</span>
+                  <span class="tag">Processamento</span>
+                </div>
+              </div>
+
+              <!-- Placeholder para link -->
+              <div class="projeto-actions">
+                <a href="#PLACEHOLDER_LINK_PROJETO_ETL" class="btn btn--ghost btn--sm" aria-label="Ver detalhes do projeto ETL">
+                  Ver detalhes
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+                </a>
+              </div>
+            </div>
+            <div class="projeto-glow" aria-hidden="true"></div>
+          </article>
+
+          <!-- Projeto 2 -->
+          <article class="projeto-card reveal-up" style="animation-delay:.1s" aria-label="Projeto: Sistema de Mercado">
+            <div class="projeto-card-inner">
+              <div class="projeto-meta">
+                <span class="projeto-number font-mono">P-01</span>
+              </div>
+              <div class="projeto-icon" aria-hidden="true">
+                <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5">
+                  <path d="M8 12h32l-4 16H12L8 12z"/>
+                  <circle cx="18" cy="34" r="2" fill="currentColor"/>
+                  <circle cx="32" cy="34" r="2" fill="currentColor"/>
+                  <path d="M4 6h4l4 6"/>
+                </svg>
+              </div>
+              <h3 class="projeto-title">Sistema de Mercado</h3>
+              <p class="projeto-desc">
+                Desenvolvimento de um sistema voltado para gerenciamento de operações de mercado,
+                envolvendo banco de dados, regras de negócio, processamento de informações e
+                interface web.
+              </p>
+              <div class="projeto-tags">
+                <span class="tag">SQL</span>
+                <span class="tag">Banco de Dados</span>
+                <span class="tag">Dev Web</span>
+                <span class="tag">Regras de Negócio</span>
+              </div>
+              <div class="projeto-actions">
+                <a href="#PLACEHOLDER_LINK_PROJETO_MERCADO" class="btn btn--ghost btn--sm">
+                  Ver detalhes
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+                </a>
+              </div>
+            </div>
+            <div class="projeto-glow" aria-hidden="true"></div>
+          </article>
+
+          <!-- Projeto 3 -->
+          <article class="projeto-card reveal-up" style="animation-delay:.15s" aria-label="Projeto: Automação e Jobs">
+            <div class="projeto-card-inner">
+              <div class="projeto-meta">
+                <span class="projeto-number font-mono">P-03</span>
+              </div>
+              <div class="projeto-icon" aria-hidden="true">
+                <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5">
+                  <circle cx="24" cy="24" r="8"/>
+                  <path d="M24 4v6M24 38v6M4 24h6M38 24h6"/>
+                  <path d="M9.17 9.17l4.24 4.24M34.6 34.6l4.24 4.24M9.17 38.83l4.24-4.24M34.6 13.4l4.24-4.24"/>
+                </svg>
+              </div>
+
+              <!-- Mini pipeline visual -->
+              <div class="mini-pipeline" aria-label="Pipeline de execução" role="img">
+                <span class="mini-pipe font-mono">trigger</span>
+                <span class="mini-arrow">→</span>
+                <span class="mini-pipe mini-pipe--active font-mono">job</span>
+                <span class="mini-arrow">→</span>
+                <span class="mini-pipe font-mono">process</span>
+                <span class="mini-arrow">→</span>
+                <span class="mini-pipe font-mono">done</span>
+              </div>
+
+              <h3 class="projeto-title">Automação e Execução de Jobs</h3>
+              <p class="projeto-desc">
+                Soluções para automatização e execução de processos recorrentes, estruturando
+                rotinas de processamento de dados de forma organizada e automatizada.
+              </p>
+              <div class="projeto-tags">
+                <span class="tag">Jobs</span>
+                <span class="tag">Automação</span>
+                <span class="tag">Pipelines</span>
+                <span class="tag">Processos</span>
+              </div>
+              <div class="projeto-actions">
+                <a href="#PLACEHOLDER_LINK_PROJETO_JOBS" class="btn btn--ghost btn--sm">
+                  Ver detalhes
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+                </a>
+              </div>
+            </div>
+            <div class="projeto-glow" aria-hidden="true"></div>
+          </article>
+
+          <!-- Projeto 4 -->
+          <article class="projeto-card reveal-up" style="animation-delay:.2s" aria-label="Projeto: Desenvolvimento de Sites">
+            <div class="projeto-card-inner">
+              <div class="projeto-meta">
+                <span class="projeto-number font-mono">P-04</span>
+              </div>
+              <div class="projeto-icon" aria-hidden="true">
+                <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5">
+                  <rect x="4" y="8" width="40" height="32" rx="3"/>
+                  <path d="M4 16h40"/>
+                  <circle cx="11" cy="12" r="2" fill="currentColor"/>
+                  <circle cx="18" cy="12" r="2" fill="currentColor"/>
+                  <path d="M16 28l4-4-4-4M26 24h6"/>
+                </svg>
+              </div>
+              <h3 class="projeto-title">Desenvolvimento de Sites</h3>
+              <p class="projeto-desc">
+                Desenvolvimento de diversos sites e aplicações web para diferentes necessidades,
+                explorando interfaces, funcionalidades, integração com dados e soluções
+                personalizadas.
+              </p>
+              <div class="projeto-tags">
+                <span class="tag">Web Dev</span>
+                <span class="tag">Interfaces</span>
+                <span class="tag">Integração</span>
+                <span class="tag">Soluções</span>
+              </div>
+              <!-- Placeholder galeria -->
+              <div class="projeto-gallery-placeholder" aria-label="Galeria de projetos - em breve">
+                <span class="font-mono">[ galeria de projetos — em breve ]</span>
+              </div>
+              <div class="projeto-actions">
+                <a href="#PLACEHOLDER_LINK_PROJETO_SITES" class="btn btn--ghost btn--sm">
+                  Ver projetos
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+                </a>
+              </div>
+            </div>
+            <div class="projeto-glow" aria-hidden="true"></div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ─────────────────────────────────────────
+         COMO EU TRABALHO
+    ───────────────────────────────────────── -->
+    <section id="abordagem" class="section abordagem" aria-labelledby="abordagem-heading">
+      <div class="container">
+        <div class="section-header reveal-up">
+          <span class="section-tag font-mono">// 05</span>
+          <h2 id="abordagem-heading" class="section-title">Como eu trabalho</h2>
+          <p class="section-subtitle">Dados + Tecnologia + Automação + Negócio</p>
+        </div>
+
+        <div class="abordagem-grid">
+          <div class="abordagem-text reveal-left">
+            <blockquote class="abordagem-quote">
+              "Acredito que tecnologia deve resolver problemas reais."
+            </blockquote>
+            <p class="abordagem-p">
+              Por isso, busco entender o problema antes de escolher a tecnologia. Em projetos de
+              dados, isso significa pensar não apenas em como processar uma informação, mas também
+              em como garantir que ela seja <strong>confiável</strong>, <strong>organizada</strong>,
+              <strong>acessível</strong> e <strong>útil</strong> para quem precisa utilizá-la.
+            </p>
+            <div class="abordagem-pillars" aria-label="Pilares de trabalho">
+              <div class="pillar">
+                <span class="pillar-icon" aria-hidden="true">◈</span>
+                <span class="pillar-text">Entender o problema</span>
+              </div>
+              <div class="pillar">
+                <span class="pillar-icon" aria-hidden="true">◈</span>
+                <span class="pillar-text">Escolher a solução certa</span>
+              </div>
+              <div class="pillar">
+                <span class="pillar-icon" aria-hidden="true">◈</span>
+                <span class="pillar-text">Garantir confiabilidade</span>
+              </div>
+              <div class="pillar">
+                <span class="pillar-icon" aria-hidden="true">◈</span>
+                <span class="pillar-text">Entregar valor real</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="workflow-diagram reveal-right" aria-label="Diagrama de fluxo de trabalho">
+            <div class="workflow-steps">
+              <div class="workflow-step">
+                <div class="wf-circle">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+                </div>
+                <span class="wf-label">Problema</span>
+              </div>
+              <div class="wf-arrow" aria-hidden="true">↓</div>
+              <div class="workflow-step">
+                <div class="wf-circle wf-circle--accent">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M3 5v14c0 1.657 4.029 3 9 3s9-1.343 9-3V5"/><path d="M3 12c0 1.657 4.029 3 9 3s9-1.343 9-3"/></svg>
+                </div>
+                <span class="wf-label">Dados</span>
+              </div>
+              <div class="wf-arrow" aria-hidden="true">↓</div>
+              <div class="workflow-step">
+                <div class="wf-circle">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+                </div>
+                <span class="wf-label">Processamento</span>
+              </div>
+              <div class="wf-arrow" aria-hidden="true">↓</div>
+              <div class="workflow-step">
+                <div class="wf-circle wf-circle--accent">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><circle cx="12" cy="12" r="3"/><path d="M12 1v4M12 19v4M4.22 4.22l2.83 2.83M16.95 16.95l2.83 2.83M1 12h4M19 12h4M4.22 19.78l2.83-2.83M16.95 7.05l2.83-2.83"/></svg>
+                </div>
+                <span class="wf-label">Automação</span>
+              </div>
+              <div class="wf-arrow" aria-hidden="true">↓</div>
+              <div class="workflow-step">
+                <div class="wf-circle wf-circle--end">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+                </div>
+                <span class="wf-label">Solução</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ─────────────────────────────────────────
+         ARQUITETURA
+    ───────────────────────────────────────── -->
+    <section id="arquitetura" class="section arquitetura" aria-labelledby="arquitetura-heading">
+      <div class="container">
+        <div class="section-header reveal-up">
+          <span class="section-tag font-mono">// 06</span>
+          <h2 id="arquitetura-heading" class="section-title">Arquitetura de Dados</h2>
+          <p class="section-subtitle">Visão técnica de uma solução de engenharia de dados</p>
+        </div>
+
+        <div class="arch-diagram reveal-up" role="img" aria-label="Diagrama de arquitetura de dados">
+
+          <div class="arch-layer arch-layer--sources">
+            <div class="arch-layer-label font-mono">Data Sources</div>
+            <div class="arch-layer-items">
+              <div class="arch-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M3 5v14c0 1.657 4.029 3 9 3s9-1.343 9-3V5"/><path d="M3 12c0 1.657 4.029 3 9 3s9-1.343 9-3"/></svg>
+                <span>Databases</span>
+              </div>
+              <div class="arch-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+                <span>Files</span>
+              </div>
+              <div class="arch-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+                <span>APIs</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="arch-arrow-down" aria-hidden="true">
+            <div class="arch-flow-line"></div>
+            <span class="font-mono">Ingestion</span>
+            <div class="arch-flow-arrow"></div>
+          </div>
+
+          <div class="arch-layer arch-layer--etl">
+            <div class="arch-layer-label font-mono">ETL / ELT</div>
+            <div class="arch-layer-items">
+              <div class="arch-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="17 8 12 3 7 8"/><line x1="12" y1="3" x2="12" y2="15"/></svg>
+                <span>Extract</span>
+              </div>
+              <div class="arch-item arch-item--active">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><polyline points="16 3 21 3 21 8"/><line x1="4" y1="20" x2="21" y2="3"/><polyline points="21 16 21 21 16 21"/></svg>
+                <span>Transform</span>
+              </div>
+              <div class="arch-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+                <span>Load</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="arch-arrow-down" aria-hidden="true">
+            <div class="arch-flow-line"></div>
+            <span class="font-mono">Data Processing</span>
+            <div class="arch-flow-arrow"></div>
+          </div>
+
+          <div class="arch-layer arch-layer--storage">
+            <div class="arch-layer-label font-mono">Data Storage</div>
+            <div class="arch-layer-items">
+              <div class="arch-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M3 5v14c0 1.657 4.029 3 9 3s9-1.343 9-3V5"/></svg>
+                <span>Data Warehouse</span>
+              </div>
+              <div class="arch-item arch-item--active">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"/></svg>
+                <span>Cloud Storage</span>
+              </div>
+              <div class="arch-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><rect x="2" y="2" width="20" height="8" rx="2" ry="2"/><rect x="2" y="14" width="20" height="8" rx="2" ry="2"/><line x1="6" y1="6" x2="6.01" y2="6"/><line x1="6" y1="18" x2="6.01" y2="18"/></svg>
+                <span>Database</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="arch-arrow-down" aria-hidden="true">
+            <div class="arch-flow-line"></div>
+            <div class="arch-flow-arrow"></div>
+          </div>
+
+          <div class="arch-layer arch-layer--analytics">
+            <div class="arch-layer-label font-mono">Analytics / Applications</div>
+            <div class="arch-layer-items">
+              <div class="arch-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg>
+                <span>Analytics</span>
+              </div>
+              <div class="arch-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M3 15h18M9 3v18"/></svg>
+                <span>Dashboards</span>
+              </div>
+              <div class="arch-item arch-item--active">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
+                <span>Applications</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ─────────────────────────────────────────
+         CONTATO
+    ───────────────────────────────────────── -->
+    <section id="contato" class="section contato" aria-labelledby="contato-heading">
+      <div class="container">
+        <div class="section-header reveal-up">
+          <span class="section-tag font-mono">// 07</span>
+          <h2 id="contato-heading" class="section-title">Vamos transformar dados em soluções?</h2>
+          <p class="section-subtitle">
+            Tem um projeto envolvendo dados, automação, sistemas ou desenvolvimento web?
+            Entre em contato para conversarmos.
+          </p>
+        </div>
+
+        <div class="contato-grid">
+          <div class="contato-links reveal-up" style="animation-delay:.1s">
+
+            <a href="https://linkedin.com/in/PLACEHOLDER_SEU_LINKEDIN" class="contato-card" target="_blank" rel="noopener noreferrer" aria-label="Meu LinkedIn">
+              <div class="contato-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                </svg>
+              </div>
+              <div class="contato-info">
+                <span class="contato-label font-mono">LinkedIn</span>
+                <span class="contato-value">Adicione seu perfil</span>
+              </div>
+              <div class="contato-arrow" aria-hidden="true">→</div>
+            </a>
+
+            <a href="https://github.com/PLACEHOLDER_SEU_GITHUB" class="contato-card" target="_blank" rel="noopener noreferrer" aria-label="Meu GitHub">
+              <div class="contato-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/>
+                </svg>
+              </div>
+              <div class="contato-info">
+                <span class="contato-label font-mono">GitHub</span>
+                <span class="contato-value">Adicione seu perfil</span>
+              </div>
+              <div class="contato-arrow" aria-hidden="true">→</div>
+            </a>
+
+            <a href="mailto:PLACEHOLDER_SEU_EMAIL" class="contato-card" aria-label="Enviar e-mail">
+              <div class="contato-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                  <polyline points="22,6 12,13 2,6"/>
+                </svg>
+              </div>
+              <div class="contato-info">
+                <span class="contato-label font-mono">E-mail</span>
+                <span class="contato-value">Adicione seu e-mail</span>
+              </div>
+              <div class="contato-arrow" aria-hidden="true">→</div>
+            </a>
+
+          </div>
+
+          <div class="contato-cta reveal-right" style="animation-delay:.2s">
+            <div class="cta-terminal" role="presentation" aria-hidden="true">
+              <div class="terminal-bar">
+                <span class="t-dot t-dot--red"></span>
+                <span class="t-dot t-dot--yellow"></span>
+                <span class="t-dot t-dot--green"></span>
+                <span class="t-title font-mono">bruno@data-eng</span>
+              </div>
+              <div class="terminal-body">
+                <p class="t-line"><span class="t-prompt">$</span> <span class="t-cmd">status</span></p>
+                <p class="t-line t-output"><span class="t-green">●</span> disponível para novos projetos</p>
+                <p class="t-line"><span class="t-prompt">$</span> <span class="t-cmd">skills --list</span></p>
+                <p class="t-line t-output">→ Engenharia de Dados</p>
+                <p class="t-line t-output">→ Big Data &amp; SQL</p>
+                <p class="t-line t-output">→ ETL / ELT &amp; Automação</p>
+                <p class="t-line t-output">→ Cloud &amp; AWS</p>
+                <p class="t-line t-output">→ Dev Web &amp; Sistemas</p>
+                <p class="t-line"><span class="t-prompt">$</span> <span class="t-cursor">_</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ─────────────────────────────────────────
+       FOOTER
+  ───────────────────────────────────────── -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <span class="logo-bracket font-mono">[</span>
+          <span class="logo-text font-mono">BR</span>
+          <span class="logo-bracket font-mono">]</span>
+          <span class="footer-name">Bruno Resende</span>
+        </div>
+        <p class="footer-role font-mono">Engenheiro de Dados · Analista de Dados</p>
+        <p class="footer-copy font-mono">&copy; 2025 Bruno Resende · Todos os direitos reservados</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="js/script.js"></script>
+</body>
+</html>
