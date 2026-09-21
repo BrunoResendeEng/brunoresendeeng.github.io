@@ -567,11 +567,7 @@ ul, ol { list-style: none; }
 
 /* Pipeline decorativo */
 .hero-pipeline {
-  position: absolute;
-  bottom: var(--space-4xl);
-  left: 50%;
-  transform: translateX(-50%);
-  z-index: 1;
+  display: none;
 }
 
 .pipeline-flow {
@@ -1806,17 +1802,6 @@ ul, ol { list-style: none; }
   position: relative;
   z-index: 3;
 }
-
-.hero-pipeline {
-  position: absolute;
-  bottom: var(--space-md);
-  left: 50%;
-  transform: translateX(-50%);
-  z-index: 1;
-  opacity: 0.8;
-  pointer-events: none;
-}
-  */
 
 /* Preferência de movimento reduzido */
 @media (prefers-reduced-motion: reduce) {
