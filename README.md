@@ -24,8 +24,6 @@
 [![GitHub](https://img.shields.io/badge/GitHub-BrunoResendeEng-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/BrunoResendeEng)
 [![Email](https://img.shields.io/badge/Email-brunomelo120296@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:brunomelo120296@gmail.com)
 
-<br/>
-
 </div>
 
 <!-- ═══════════════════════════════════════════════════════════ -->
