@@ -351,7 +351,7 @@ Se este repositório te ajudou de alguma forma ou serviu de inspiração, **cons
 
 <br/>
 
-**Feito com 💙 por [Bruno Resende](https://github.com/BrunoResendeEng)**
+**Feito por [Bruno Resende](https://github.com/BrunoResendeEng)**
 
 *© 2026 Bruno Resende · Todos os direitos reservados*
 
