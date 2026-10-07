@@ -25,10 +25,6 @@
 [![Email](https://img.shields.io/badge/Email-brunomelo120296@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:brunomelo120296@gmail.com)
 
 <br/>
-
-![Stars](https://img.shields.io/github/stars/BrunoResendeEng/brunoresendeeng.github.io?style=for-the-badge&color=00ff88&label=Stars)
-![Forks](https://img.shields.io/github/forks/BrunoResendeEng/brunoresendeeng.github.io?style=for-the-badge&color=ffa500&label=Forks)
-
 </div>
 
 <br/>
