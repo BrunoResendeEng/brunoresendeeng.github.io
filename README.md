@@ -25,9 +25,8 @@
 [![Email](https://img.shields.io/badge/Email-brunomelo120296@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:brunomelo120296@gmail.com)
 
 <br/>
-</div>
 
-<br/>
+</div>
 
 <!-- ═══════════════════════════════════════════════════════════ -->
 <!--                        INTRODUÇÃO                            -->
