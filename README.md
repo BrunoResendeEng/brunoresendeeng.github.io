@@ -26,7 +26,6 @@
 
 <br/>
 
-![Visitantes](https://komarev.com/ghpvc/?username=BrunoResendeEng&label=Visitantes&color=00d4ff&style=for-the-badge)
 ![Stars](https://img.shields.io/github/stars/BrunoResendeEng/brunoresendeeng.github.io?style=for-the-badge&color=00ff88&label=Stars)
 ![Forks](https://img.shields.io/github/forks/BrunoResendeEng/brunoresendeeng.github.io?style=for-the-badge&color=ffa500&label=Forks)
 
